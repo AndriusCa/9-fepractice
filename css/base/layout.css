@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    padding: 3.5rem 9rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-decoration-color: #5569AF;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+    padding-top: 4rem;
+}
+
+.right-column {
+    width: 60%;
+}
