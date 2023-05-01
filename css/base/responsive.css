@@ -1,0 +1,71 @@
+
+@media (max-width: 68rem) {
+  .container > .row {
+    width: 50rem;
+    margin: 0 calc(50% - 25rem);
+  }
+
+  .team {
+  flex-direction: column;
+}
+
+.partners .partnerlogo {
+  flex-direction: column;
+}
+}
+
+@media (max-width: 56rem) {
+  .container > .row {
+    width: 38rem;
+    margin: 0 calc(50% - 19rem);
+  }
+
+.team {
+  flex-direction: column;
+}
+
+.partners .partnerlogo {
+  flex-direction: column;
+}
+
+}
+
+@media (max-width: 44rem) {
+  .container > .row {
+    width: 25rem;
+    margin: 0 calc(50% - 12.5rem);
+  }
+
+  .team {
+  flex-direction: column;
+}
+}
+
+@media (max-width: 28rem) {
+  .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team {
+  flex-direction: column;
+}
+
+  .container bg-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heroimg {
+    margin-top: 1rem;
+  }
+
+.partners .partnerlogo {
+    display: flex;
+    flex-direction: column;
+}
+
+  .logobit {
+    display: none;
+}
+}

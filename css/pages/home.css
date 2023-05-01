@@ -1,6 +1,7 @@
 /*base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../base/responsive.css';
 
 /*CUSTOMS STYLES BELONG THIS COMENT LINE*/
 
@@ -12,3 +13,4 @@
 /* Components*/
 
 @import "../components/button.css"
+

@@ -122,7 +122,7 @@
     text-align: center;
     box-shadow: 3px 4px 12px 1px #ccc;
     padding: 1rem;
-    
+    gap: 2rem;
 }
 
 .row .socials  {
@@ -152,31 +152,4 @@
     font-size: 1.2rem;
     color: #ffffff;
     text-align: center;
-
 }
-
-@media (max-width: 28rem) {
-  .container .row {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .container bg-main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .heroimg {
-    margin-top: 1rem;
-  }
-
-.partners .partnerlogo {
-    display: flex;
-    flex-direction: column;
-}
-
-  .logobit {
-    display: none;
-}
-
