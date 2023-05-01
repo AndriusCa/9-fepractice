@@ -4,3 +4,11 @@
 
 /*CUSTOMS STYLES BELONG THIS COMENT LINE*/
 
+
+/* 3rd-party*/
+
+@import "../3rd-party/font-awesome.min.css";
+
+/* Components*/
+
+@import "../components/button.css"
