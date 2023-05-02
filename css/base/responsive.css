@@ -42,30 +42,82 @@
 }
 
 @media (max-width: 28rem) {
-  .container .row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .team {
+.container .row {
+  display: flex;
   flex-direction: column;
+ }
+
+
+ .link {
+   display: none;
+ }
+
+.bar {
+   visibility: visible;
+   width: 0;
+ }
+
+ .container .main-nav {
+  display: none;
+ }
+
+.logobit {
+  display: none;
 }
 
-  .container bg-main {
+.container > .hero {
+  flex-direction: column-reverse;
+}
+
+.container > .creative {
+  flex-direction: column-reverse;
+}
+
+
+.creativeimg {
+ width: 80%;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+}
+
+.text-block {
+  width: 76%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.team {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container bg-main {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .heroimg {
+.heroimg {
     margin-top: 1rem;
-  }
+    width: 86%;
+ }
 
 .partners .partnerlogo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-  .logobit {
-    display: none;
+.meetingimg {
+  width: 80%;
+}
+
+.row.meeting > .text-block {
+  width: 80%;
+}
+
+.row .socials {
+  padding: 0.5rem;
+  font-size: 1.2rem;
 }
 }

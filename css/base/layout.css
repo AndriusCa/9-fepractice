@@ -2,6 +2,14 @@
   width: 100%;
 }
 
+.bar {
+   visibility: hidden;
+   width: 0;
+   color: #fff;
+   text-decoration: none;
+ }
+
+
 .container > .row {
   display: flex;
   align-items: center;
@@ -53,6 +61,7 @@
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.3rem;
+  font-weight: bolder;
 }
 
 .main-tittle {
@@ -61,6 +70,7 @@
 
 .row.meeting {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -70,8 +80,7 @@
 }
 
 .meetingimg {
-  width: 600px;
-  height: 430px;
+ width: 50%;
 }
 
 .main-home .tittle {
@@ -102,9 +111,19 @@
 }
 
 .talents .text-block  {
+    display: flex;
+    gap: 2rem;
     text-align: center;
-    color: #212529;
     text-transform:capitalize;
+}
+
+.text-talents {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  width: auto;
+  
 }
 
 .team {
@@ -130,21 +149,18 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 2.5rem 0;
+    padding: 2.5rem;
 }
 
 .socials > .social-link {
     font-size: 1.2rem;
-    width: 2.5em;
-    height: 2.5em;
-    line-height: 1.5em;
     text-align: center;
     color: #f2f0f0;
     text-decoration: none;
 }
 
 .socials > .social-link:hover {
-    font-size: 1.5rem;
+    color: #212529;
 
 }
 
@@ -152,4 +168,8 @@
     font-size: 1.2rem;
     color: #ffffff;
     text-align: center;
+}
+
+ .footer.row > .row {
+  padding-top: 0;
 }
