@@ -1,6 +1,16 @@
 /*base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../base/responsive.css';
 
 /*CUSTOMS STYLES BELONG THIS COMENT LINE*/
+
+
+/* 3rd-party*/
+
+@import "../3rd-party/font-awesome.min.css";
+
+/* Components*/
+
+@import "../components/button.css"
 
